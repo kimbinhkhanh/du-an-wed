@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+}
+
+.menu {
+    background: #333;
+    padding: 12px;
+    text-align: center;
+}
+
+.menu a {
+    color: white;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: yellow;
+}
+
+.name {
+    font-size: 19px; 
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.container {
+  width: 500px;
+  background: white;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+.container p {
+  text-align: justify;
+  text-align-last: left;
+  line-height: 1.6;
+  font-size: 16px;
+  hyphens: auto;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 5%;
+    display: block;
+    margin: 0 auto 15px;
+    object-fit: cover;
+}
+
+.desc {
+    color: #555;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #999;
+}
+
+th {
+    background: #007bff;
+    color: white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgreen;
+}
